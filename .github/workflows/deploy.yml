@@ -1,12 +1,12 @@
 #### Publish tags to docker hub
-name: Deploy the addon
+name: Deploy addon
 on:
   push:
     tags:
       - '*'
 jobs:
   deploy:
-    name: Deploy addon
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
