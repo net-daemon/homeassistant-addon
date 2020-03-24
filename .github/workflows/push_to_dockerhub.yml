@@ -5,10 +5,11 @@ on:
     tags:
       - '*'
 jobs:
-  deploy_addon:
+  deploy:
     name: Deploy addon
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
       - name: Run deploy script using builder
         run: docker run --rm --privileged -v /var/run/docker.sock:/var/run/docker.sock -v ${{github.workspace}}/netdaemon:/data homeassistant/amd64-builder -t /data --all --docker-user ${{ secrets.DOCKER_USERNAME }} --docker-password ${{ secrets.DOCKER_TOKEN }}
+
