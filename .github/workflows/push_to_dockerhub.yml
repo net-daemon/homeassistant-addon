@@ -1,5 +1,5 @@
 #### Publish tags to docker hub
-name: Deploy the addon to dockerhub
+name: Deploy the addon
 on:
   push:
     tags:
@@ -12,4 +12,3 @@ jobs:
       - uses: actions/checkout@master
       - name: Run deploy script using builder
         run: docker run --rm --privileged -v /var/run/docker.sock:/var/run/docker.sock -v ${{github.workspace}}/netdaemon:/data homeassistant/amd64-builder -t /data --all --docker-user ${{ secrets.DOCKER_USERNAME }} --docker-password ${{ secrets.DOCKER_TOKEN }}
-
