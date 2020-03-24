@@ -1,4 +1,4 @@
-#### Publish tags to docker hub
+#### Publish addon to docker hub
 name: Deploy addon
 on:
   push:
