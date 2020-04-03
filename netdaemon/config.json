@@ -1,22 +1,31 @@
 {
   "name": "NetDaemon",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "slug": "netdaemon",
   "description": "Application daemon written in .NET core 3.1",
   "url": "http://netdaemon.xyz",
   "startup": "application",
   "image": "netdaemon/homeassistant-addon-{arch}",
-  "arch": ["aarch64", "amd64", "armhf", "armv7"],
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "armv7"
+  ],
   "boot": "auto",
-  "map": ["config:rw"],
+  "map": [
+    "config:rw"
+  ],
   "hassio_api": true,
   "hassio_role": "default",
   "homeassistant_api": true,
   "host_network": false,
   "options": {
-    "log_level": "info"
+    "log_level": "info",
+    "generate_entities": "false"
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|warning|error)$)"
+    "log_level": "match(^(trace|debug|info|warning|error)$)",
+    "generate_entities": "match(^(true|false)$)"
   }
 }
