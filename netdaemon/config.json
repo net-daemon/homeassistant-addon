@@ -26,6 +26,6 @@
   },
   "schema": {
     "log_level": "match(^(trace|debug|info|warning|error)$)",
-    "generate_entities": "match(^(true|false)$)"
+    "generate_entities": "bool?"
   }
 }

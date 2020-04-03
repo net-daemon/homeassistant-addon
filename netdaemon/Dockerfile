@@ -11,7 +11,7 @@ RUN \
     apk add --no-cache git \
     && git clone https://github.com/net-daemon/netdaemon.git \
     && cd netdaemon \
-    && git checkout dev
+    && git checkout master
 
 # Build a self contained executable and trim the executable
 RUN \
