@@ -12,3 +12,10 @@
 ## [0.2.3]
 
 - Generate code from entities
+
+## [0.3.1]
+
+- Support for GetApp and app dependencies
+- Better error management in initialization
+- Support for Camera in Fluent API
+
