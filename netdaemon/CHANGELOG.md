@@ -19,3 +19,8 @@
 - Better error management in initialization
 - Support for Camera in Fluent API
 
+## [0.3.2]
+
+- Better logging and error handling
+- Serilog now main logsink
+- Improved Log methods in NetDaemonApps
