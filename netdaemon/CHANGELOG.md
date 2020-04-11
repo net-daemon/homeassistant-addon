@@ -24,3 +24,6 @@
 - Better logging and error handling
 - Serilog now main logsink
 - Improved Log methods in NetDaemonApps
+
+## [0.3.3]
+- Bugfix, config not working
