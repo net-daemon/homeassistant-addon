@@ -1,14 +1,5 @@
 # Changelog
 
-## [0.1.45]
-
-- Version sync with NetDaemon components and docker container release. So now always the corresponding nuget packages for dev env should be used.
-- Moved to new url under the net-daemon organization
-
-## [0.2.1]
-
-- Much improved error handling
-
 ## [0.2.3]
 
 - Generate code from entities
@@ -26,4 +17,9 @@
 - Improved Log methods in NetDaemonApps
 
 ## [0.3.3]
+
 - Bugfix, config not working
+
+## [0.3.4]
+
+- More improved logging
