@@ -1,15 +1,5 @@
 # Changelog
 
-## [0.2.3]
-
-- Generate code from entities
-
-## [0.3.1]
-
-- Support for GetApp and app dependencies
-- Better error management in initialization
-- Support for Camera in Fluent API
-
 ## [0.3.2]
 
 - Better logging and error handling
@@ -23,3 +13,10 @@
 ## [0.3.4]
 
 - More improved logging
+
+## [0.3.5]
+
+- ´unavailable´ states are treated as null (breaking)
+- app-switches with companion are real switches now (breaking)
+
+Hav fun with this release.
