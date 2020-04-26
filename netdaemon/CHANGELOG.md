@@ -20,3 +20,10 @@
 - app-switches with companion are real switches now (breaking)
 
 Hav fun with this release.
+
+## [0.3.6]
+
+- Warn if forgetting Execute/ExecuteAsync
+- NetDaemonApp is abstract now
+- Thread safe global state sharing
+- Redesign of reconnect, full load on reconnect
