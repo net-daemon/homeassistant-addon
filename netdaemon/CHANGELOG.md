@@ -1,11 +1,5 @@
 # Changelog
 
-## [0.3.2]
-
-- Better logging and error handling
-- Serilog now main logsink
-- Improved Log methods in NetDaemonApps
-
 ## [0.3.3]
 
 - Bugfix, config not working
@@ -27,3 +21,7 @@ Hav fun with this release.
 - NetDaemonApp is abstract now
 - Thread safe global state sharing
 - Redesign of reconnect, full load on reconnect
+
+## [0.3.7]
+
+- Bugfix, exclude auto generated code from warning of missing Execute/ExecuteAsync
