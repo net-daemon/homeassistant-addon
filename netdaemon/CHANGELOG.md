@@ -25,3 +25,8 @@ Hav fun with this release.
 ## [0.3.7]
 
 - Bugfix, exclude auto generated code from warning of missing Execute/ExecuteAsync
+
+## [0.4.0]
+
+- Udated HassClient
+- Fixed to support custom built docker containers from dev. env.
