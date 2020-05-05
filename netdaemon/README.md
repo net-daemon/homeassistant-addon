@@ -14,13 +14,11 @@ See [https://github.com/net-daemon/netdaemon/releases](https://github.com/net-da
 
 The NetDaemon project can be found at [https://github.com/net-daemon/netdaemon](https://github.com/net-daemon/netdaemon)
 
-## Pre-Alpha! Expect things to change
+## Beta
 
-This is in pre-alpha experimental phase and expect API:s to change over time. Please use and contribute ideas for improvement or better yet PR:s.
+This is in beta phase and the API:s getting more stable but there could still be breaking changes!. Please use and contribute ideas for improvement or better yet PR:s.
 
-Only amd64 (non arm) is currently supported but ARM devices as Raspberry PI will be supported in the near future.
-
-The daemon is currently only distributed through Hassio add-on but a docker container and instruction to run locally will be provided in time.
+The daemon is currently only distributed through Home Assistant add-on and as a stand-alone docker container.
 
 ## Docs
 
