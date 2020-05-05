@@ -1,13 +1,5 @@
 # Changelog
 
-## [0.3.3]
-
-- Bugfix, config not working
-
-## [0.3.4]
-
-- More improved logging
-
 ## [0.3.5]
 
 - ´unavailable´ states are treated as null (breaking)
@@ -30,3 +22,9 @@ Hav fun with this release.
 
 - Udated HassClient
 - Fixed to support custom built docker containers from dev. env.
+
+## [0.5.1]
+
+- First beta!
+- Added support for Areas
+- New compile step at start as preparation to be able to run custom c# project files (custom nugets etc)
