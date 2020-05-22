@@ -28,3 +28,8 @@ Hav fun with this release.
 - First beta!
 - Added support for Areas
 - New compile step at start as preparation to be able to run custom c# project files (custom nugets etc)
+
+## [0.8.1]
+
+- System.Reactive API - New base class to use NetDaemonRxApp
+- Improvements and refactorings
