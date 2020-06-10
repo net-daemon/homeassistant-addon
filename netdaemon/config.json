@@ -1,6 +1,6 @@
 {
   "name": "NetDaemon",
-  "version": "0.8.1",
+  "version": "0.9.0",
   "slug": "netdaemon",
   "description": "Application daemon written in .NET core 3.1",
   "url": "http://netdaemon.xyz",
@@ -22,10 +22,13 @@
   "host_network": false,
   "options": {
     "log_level": "info",
-    "generate_entities": "false"
+    "log_messages": false,
+    "generate_entities": false,
+    "project_folder": ""
   },
   "schema": {
     "log_level": "match(^(trace|debug|info|warning|error)$)",
+    "log_messages": "bool?",
     "generate_entities": "bool?"
   }
 }

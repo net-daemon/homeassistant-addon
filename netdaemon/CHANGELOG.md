@@ -33,3 +33,9 @@ Hav fun with this release.
 
 - System.Reactive API - New base class to use NetDaemonRxApp
 - Improvements and refactorings
+
+## [0.9.0]
+
+- Runtime information
+- Better logging
+- Support for custom app folders in add-on
