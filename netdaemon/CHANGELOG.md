@@ -1,12 +1,5 @@
 # Changelog
 
-## [0.3.5]
-
-- ´unavailable´ states are treated as null (breaking)
-- app-switches with companion are real switches now (breaking)
-
-Hav fun with this release.
-
 ## [0.3.6]
 
 - Warn if forgetting Execute/ExecuteAsync
@@ -39,3 +32,7 @@ Hav fun with this release.
 - Runtime information
 - Better logging
 - Support for custom app folders in add-on
+
+## [0.9.1]
+
+- Allow disable ssl certificate checks on specific self-signed certs
