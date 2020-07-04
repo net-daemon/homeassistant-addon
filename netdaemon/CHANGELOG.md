@@ -32,3 +32,7 @@
 ## [0.10.0]
 
 - BREAKING CHANGE - Maintainence release changed namespaces, see https://github.com/net-daemon/netdaemon/pull/145 for details.
+
+## [0.10.1]
+
+- Bugfix, please see 0.10.0, breaking changes
