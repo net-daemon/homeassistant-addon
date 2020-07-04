@@ -1,6 +1,6 @@
 {
   "name": "NetDaemon",
-  "version": "0.9.6",
+  "version": "0.10.0",
   "slug": "netdaemon",
   "description": "Application daemon written in .NET core 3.1",
   "url": "http://netdaemon.xyz",

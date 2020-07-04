@@ -1,14 +1,5 @@
 # Changelog
 
-## [0.3.7]
-
-- Bugfix, exclude auto generated code from warning of missing Execute/ExecuteAsync
-
-## [0.4.0]
-
-- Udated HassClient
-- Fixed to support custom built docker containers from dev. env.
-
 ## [0.5.1]
 
 - First beta!
@@ -37,3 +28,7 @@
 ## [0.9.6]
 
 - Complex datatypes in yaml config
+
+## [0.10.0]
+
+- BREAKING CHANGE - Maintainence release changed namespaces, see https://github.com/net-daemon/netdaemon/pull/145 for details.
