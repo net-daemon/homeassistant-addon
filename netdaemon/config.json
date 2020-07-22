@@ -1,6 +1,6 @@
 {
   "name": "NetDaemon",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "slug": "netdaemon",
   "description": "Application daemon written in .NET core 3.1",
   "url": "http://netdaemon.xyz",
@@ -16,6 +16,10 @@
   "map": [
     "config:rw"
   ],
+  "ingress": true,
+  "ingress_port": 1337,
+  "panel_icon": "mdi:alpha-n-circle",
+  "panel_title": "NetDaemon Admin",
   "hassio_api": true,
   "hassio_role": "default",
   "homeassistant_api": true,
