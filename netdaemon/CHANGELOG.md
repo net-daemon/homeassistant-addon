@@ -16,7 +16,7 @@
 
 - Config changes, breaking!! See https://github.com/net-daemon/netdaemon/releases/tag/0.11.0
 
-## [0.13.0]
+## [0.13.1]
 
 - GUI, first GUI for netdaemon
 - Change API port and disable API
