@@ -20,3 +20,8 @@
 
 - GUI, first GUI for netdaemon
 - Change API port and disable API
+
+## [0.14.0]
+
+- GUI, theme support
+- Increase channel size to allow more entities being selected and run service calls on.
