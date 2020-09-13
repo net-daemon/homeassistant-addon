@@ -18,3 +18,8 @@
 
 - GUI, theme bugfix
 - Waits untill Home Assistant is ready before connecting
+
+## [0.16.0]
+
+- GUI, websocket support and enable/disable app
+- Under the hood: IOC, better logging of config errors
