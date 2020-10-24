@@ -1,9 +1,5 @@
 # Changelog
 
-## [0.11.0]
-
-- Config changes, breaking!! See https://github.com/net-daemon/netdaemon/releases/tag/0.11.0
-
 ## [0.13.1]
 
 - GUI, first GUI for netdaemon
@@ -23,3 +19,8 @@
 
 - GUI, websocket support and enable/disable app
 - Under the hood: IOC, better logging of config errors
+
+## [20.43.0]
+
+- Maintainence of nuget packages
+- Use Calver versioning system
