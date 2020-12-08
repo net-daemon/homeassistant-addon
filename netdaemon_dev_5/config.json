@@ -1,0 +1,38 @@
+{
+  "name": "NetDaemon dev .NET 5 pre-release",
+  "version": "dev_5",
+  "slug": "netdaemon_dev_5",
+  "description": "Application daemon written in .NET 5, development pre-release",
+  "url": "http://netdaemon.xyz",
+  "startup": "application",
+  "image": "netdaemon/netdaemon",
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "armv7"
+  ],
+  "boot": "auto",
+  "map": [
+    "config:rw"
+  ],
+  "ingress": true,
+  "ingress_port": 1337,
+  "panel_icon": "mdi:alpha-n-circle",
+  "panel_title": "NetDaemon Admin",
+  "hassio_api": true,
+  "hassio_role": "default",
+  "homeassistant_api": true,
+  "host_network": false,
+  "options": {
+    "log_level": "info",
+    "log_messages": false,
+    "generate_entities": false,
+    "project_folder": ""
+  },
+  "schema": {
+    "log_level": "match(^(trace|debug|info|warning|error)$)",
+    "log_messages": "bool?",
+    "generate_entities": "bool?"
+  }
+}
