@@ -1,6 +1,6 @@
-# NetDaemon developer .NET 5 pre-release
+# NetDaemon old .NET 3 release (DEPRECATED!!!)
 
-This is the developer release of NetDaemon. The official version of the add-on is recommended for production use. If you want to use or test the latest dev release you can use this add-on instead of the official one.
+This is the old 3.1 release of NetDaemon. The official version of the add-on is recommended for production use. If you want to use or test the latest dev release you can use this add-on instead of the official one.
 
 Uninstall and re-install to uppdate to latest dev release.
 
