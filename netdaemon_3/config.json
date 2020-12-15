@@ -1,7 +1,7 @@
 {
-  "name": "NetDaemon dev .NET 5 pre-release",
-  "version": "dev_5",
-  "slug": "netdaemon_dev_5",
+  "name": "NetDaemon dev .NET 3.1 (deprecated)",
+  "version": "20.43.0",
+  "slug": "netdaemon_3",
   "description": "Application daemon written in .NET 5, development pre-release",
   "url": "http://netdaemon.xyz",
   "startup": "application",
@@ -18,6 +18,7 @@
   ],
   "ingress": true,
   "ingress_port": 1337,
+  "stage": "deprecated",
   "panel_icon": "mdi:alpha-n-circle",
   "panel_title": "NetDaemon Admin",
   "hassio_api": true,

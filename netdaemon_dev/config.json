@@ -2,7 +2,7 @@
   "name": "NetDaemon dev release",
   "version": "dev",
   "slug": "netdaemon_dev",
-  "description": "Application daemon written in .NET core 3.1, development release",
+  "description": "Application daemon written in .NET 5, development release",
   "url": "http://netdaemon.xyz",
   "startup": "application",
   "image": "netdaemon/netdaemon",

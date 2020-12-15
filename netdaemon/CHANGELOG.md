@@ -24,3 +24,7 @@
 
 - Maintainence of nuget packages
 - Use Calver versioning system
+
+## [20.51.1]
+- .NET 5!!!
+- see [releasenotes](https://github.com/net-daemon/netdaemon/releases/tag/20.51.1)
