@@ -1,6 +1,6 @@
 {
   "name": "NetDaemon",
-  "version": "20.51.1",
+  "version": "20.51.6",
   "slug": "netdaemon",
   "description": "Application daemon written in .NET 5",
   "url": "http://netdaemon.xyz",
@@ -28,11 +28,12 @@
     "log_level": "info",
     "log_messages": false,
     "generate_entities": false,
-    "project_folder": ""
+    "app_source": "/config/netdaemon/apps"
   },
   "schema": {
     "log_level": "match(^(trace|debug|info|warning|error)$)",
     "log_messages": "bool?",
-    "generate_entities": "bool?"
+    "generate_entities": "bool?",
+    "app_source": "str"
   }
 }

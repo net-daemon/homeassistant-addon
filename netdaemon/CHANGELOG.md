@@ -1,15 +1,5 @@
 # Changelog
 
-## [0.13.1]
-
-- GUI, first GUI for netdaemon
-- Change API port and disable API
-
-## [0.14.0]
-
-- GUI, theme support
-- Increase channel size to allow more entities being selected and run service calls on.
-
 ## [0.15.0]
 
 - GUI, theme bugfix
@@ -28,3 +18,7 @@
 ## [20.51.1]
 - .NET 5!!!
 - see [releasenotes](https://github.com/net-daemon/netdaemon/releases/tag/20.51.1)
+
+## [20.51.6]
+- Improve deployment choices and developer experience
+- see [releasenotes](https://github.com/net-daemon/netdaemon/releases/tag/20.51.6)
