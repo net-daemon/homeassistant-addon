@@ -1,8 +1,8 @@
 {
-  "name": "NetDaemon .NET 3.1 (deprecated)",
-  "version": "20.43.0",
-  "slug": "netdaemon_3",
-  "description": "Application daemon old 3.1 release",
+  "name": "NetDaemon V1 API",
+  "version": "21.05.0",
+  "slug": "netdaemon",
+  "description": "Application daemon written in .NET 5, with deprecated v1.0 API. Please upgrade to current Rx API",
   "url": "http://netdaemon.xyz",
   "startup": "application",
   "image": "netdaemon/netdaemon",
@@ -29,11 +29,12 @@
     "log_level": "info",
     "log_messages": false,
     "generate_entities": false,
-    "project_folder": ""
+    "app_source": "/config/netdaemon/apps"
   },
   "schema": {
     "log_level": "match(^(trace|debug|info|warning|error)$)",
     "log_messages": "bool?",
-    "generate_entities": "bool?"
+    "generate_entities": "bool?",
+    "app_source": "str"
   }
 }
