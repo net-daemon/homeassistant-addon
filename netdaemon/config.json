@@ -1,6 +1,6 @@
 {
   "name": "NetDaemon",
-  "version": "21.06.0",
+  "version": "21.08.0",
   "slug": "netdaemon",
   "description": "Application daemon written in .NET 5",
   "url": "http://netdaemon.xyz",
