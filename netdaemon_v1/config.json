@@ -2,7 +2,7 @@
   "name": "NetDaemon V1 API",
   "version": "21.05.0",
   "slug": "netdaemon_v1",
-  "description": "Application daemon written in .NET 5, with deprecated v1.0 API. Please upgrade to current Rx API",
+  "description": "Application daemon written in .NET 5, with deprecated v1.0 API. Please upgrade to current Rx API. This will be removed september 2021!",
   "url": "http://netdaemon.xyz",
   "startup": "application",
   "image": "netdaemon/netdaemon",
