@@ -1,8 +1,8 @@
 {
   "name": "NetDaemon",
-  "version": "21.29.1",
+  "version": "21.47.1",
   "slug": "netdaemon",
-  "description": "Application daemon written in .NET 5",
+  "description": "Write automations in C# for Home Assistant",
   "url": "http://netdaemon.xyz",
   "startup": "application",
   "image": "netdaemon/netdaemon",

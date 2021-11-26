@@ -1,6 +1,6 @@
 # NetDaemon
 
-This is the dotnet application daemon project for Home Assistant. This project makes it possible to make automations using the .NET Core (3.1) framework and c#.
+Netdaemon provides capability to write home automations in C# for Home Assistant. The daemon is currently only distributed through Hassio add-on and as a stand-alone docker container.
 
 ## Docs
 
@@ -17,11 +17,9 @@ See [https://github.com/net-daemon/netdaemon/releases](https://github.com/net-da
 
 The NetDaemon project can be found at [https://github.com/net-daemon/netdaemon](https://github.com/net-daemon/netdaemon)
 
-## Beta
+## Expect things to change
 
-This is in beta phase and the API:s getting more stable but there could still be breaking changes!. Please use and contribute ideas for improvement or better yet PR:s.
-
-The daemon is currently only distributed through Hassio add-on and as a stand-alone docker container.
+The NetDaemon project is stable but is still in development so expect things to change!
 
 ## Attribution
 

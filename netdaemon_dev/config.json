@@ -1,8 +1,8 @@
 {
-  "name": "NetDaemon dev release",
+  "name": "NetDaemon development release",
   "version": "dev",
   "slug": "netdaemon_dev",
-  "description": "Application daemon written in .NET 6, development release",
+  "description": "Write automations in C# for Home Assistant, development release",
   "url": "http://netdaemon.xyz",
   "startup": "application",
   "image": "netdaemon/netdaemon",
