@@ -4,7 +4,7 @@ This is the developer release of NetDaemon. The official version of the add-on i
 
 Uninstall and re-install to uppdate to latest dev release.
 
-## Dev environment
+## Development environment
 
 To setup a development environment for NetDaemon please see [https://github.com/net-daemon/netdaemon-app-template](https://github.com/net-daemon/netdaemon-app-template)
 
@@ -14,16 +14,10 @@ See [https://github.com/net-daemon/netdaemon/releases](https://github.com/net-da
 
 The NetDaemon project can be found at [https://github.com/net-daemon/netdaemon](https://github.com/net-daemon/netdaemon)
 
-## Beta
+## Expect things to change
 
-This is in beta phase and the API:s getting more stable but there could still be breaking changes!. Please use and contribute ideas for improvement or better yet PR:s.
-
-The daemon is currently only distributed through Home Assistant add-on and as a stand-alone docker container.
+The NetDaemon project is stable but is still in development so expect things to change!
 
 ## Docs
 
 [Find the documentation here!](https://netdaemon.xyz)
-
-## Attribution
-
-ICON: Attribution: [chris]([chris](https://commons.wikimedia.org/wiki/User:Chrkl)) 論
