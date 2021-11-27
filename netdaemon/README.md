@@ -1,6 +1,6 @@
 # NetDaemon
 
-Netdaemon provides capability to write home automations in C# for Home Assistant.
+NetDaemon provides capability to write home automations in C# for Home Assistant.
 
 ## Development environment
 

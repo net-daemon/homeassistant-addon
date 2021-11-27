@@ -1,6 +1,6 @@
 # NetDaemon
 
-Netdaemon provides capability to write home automations in C# for Home Assistant. The daemon is currently only distributed through Hassio add-on and as a stand-alone docker container.
+Netdaemon provides capability to write automations in C# for Home Assistant. The daemon is currently only distributed through Hassio add-on and as a stand-alone docker container.
 
 ## Docs
 
