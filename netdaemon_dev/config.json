@@ -1,5 +1,5 @@
 {
-  "name": "NetDaemon development release",
+  "name": "NetDaemon V2-development",
   "version": "dev",
   "slug": "netdaemon_dev",
   "description": "Write automations in C# for Home Assistant, development release",
