@@ -1,6 +1,8 @@
-# NetDaemon developer release
+# NetDaemon V2 - Developer release
 
 This is the developer release of NetDaemon. The official version of the add-on is recommended for production use. If you want to use or test the latest dev release you can use this add-on instead of the official one.
+
+NetDaemon V2 is the current release of NetDaemon runtime. We do recommend moving to version 3. We will continue maintain and fixing bugs but no new features will be added to version 2. See the [docs](https://netdaemon.xyz) what's the difference is between the versions.
 
 Uninstall and re-install to uppdate to latest dev release.
 

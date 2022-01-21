@@ -1,0 +1,34 @@
+{
+  "name": "NetDaemon",
+  "version": "dev",
+  "slug": "netdaemon3_dev",
+  "description": "NetDaemon V3-beta, development release",
+  "url": "http://netdaemon.xyz",
+  "startup": "application",
+  "image": "ghcr.io/net-daemon/netdaemon_addon3",
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "armv7"
+  ],
+  "boot": "auto",
+  "map": [
+    "config:rw"
+  ],
+  "ingress": false,
+  "hassio_api": true,
+  "hassio_role": "default",
+  "homeassistant_api": true,
+  "host_network": false,
+  "options": {
+    "log_level": "information",
+    "app_config_folder": "/config/netdaemon3",
+    "app_assembly": ""
+  },
+  "schema": {
+    "log_level": "match(^(trace|debug|information|warning|error|critical)$)",
+    "app_config_folder": "str",
+    "app_assembly": "str"
+  }
+}
