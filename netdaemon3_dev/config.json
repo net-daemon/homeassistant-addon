@@ -29,6 +29,6 @@
   "schema": {
     "log_level": "match(^(trace|debug|information|warning|error|critical)$)",
     "app_config_folder": "str",
-    "app_assembly": "str"
+    "app_assembly": "str?"
   }
 }
