@@ -1,6 +1,6 @@
 {
   "name": "NetDaemon V3 - beta",
-  "version": "22.20.0",
+  "version": "22.23.0",
   "slug": "netdaemon3",
   "description": "NetDaemon V3-beta, Write automations in C# for Home Assistant",
   "url": "http://netdaemon.xyz",
