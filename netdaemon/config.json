@@ -1,6 +1,6 @@
 {
   "name": "NetDaemon V2",
-  "version": "22.1.6",
+  "version": "22.1.7",
   "slug": "netdaemon",
   "description": "Write automations in C# for Home Assistant",
   "url": "http://netdaemon.xyz",
