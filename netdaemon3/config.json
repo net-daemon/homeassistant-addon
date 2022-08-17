@@ -33,5 +33,17 @@
     "log_level": "match(^(trace|debug|information|warning|error|critical)$)",
     "app_config_folder": "str",
     "app_assembly": "str?"
+  },
+  "ports": {
+    "10000/udp": null,
+    "10001/udp": null,
+    "10002/udp": null,
+    "10003/udp": null,
+    "10004/udp": null,
+    "20000/tcp": null,
+    "20001/tcp": null,
+    "20002/tcp": null,
+    "20003/tcp": null,
+    "20004/tcp": null
   }
 }
