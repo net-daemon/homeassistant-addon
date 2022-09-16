@@ -35,15 +35,15 @@
     "app_assembly": "str?"
   },
   "ports": {
-    "10000/udp": null,
-    "10001/udp": null,
-    "10002/udp": null,
-    "10003/udp": null,
-    "10004/udp": null,
-    "20000/tcp": null,
-    "20001/tcp": null,
-    "20002/tcp": null,
-    "20003/tcp": null,
-    "20004/tcp": null
+    "10000/tcp": null,
+    "10001/tcp": null,
+    "10002/tcp": null,
+    "10003/tcp": null,
+    "10004/tcp": null,
+    "20000/udp": null,
+    "20001/udp": null,
+    "20002/udp": null,
+    "20003/udp": null,
+    "20004/udp": null
   }
 }
