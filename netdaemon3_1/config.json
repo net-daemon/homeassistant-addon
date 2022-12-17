@@ -1,11 +1,11 @@
 {
-  "name": "NetDaemon V3.0 (.NET 6)",
-  "version": "22.44.0",
-  "slug": "netdaemon3",
-  "description": "NetDaemon V3.0 (.NET 6), Write automations in C# for Home Assistant",
+  "name": "NetDaemon V3.1 (.NET 7)",
+  "version": "22.50.1",
+  "slug": "netdaemon3_1",
+  "description": "NetDaemon V3.1 (.NET 7), Write automations in C# for Home Assistant",
   "url": "http://netdaemon.xyz",
   "startup": "application",
-  "image": "ghcr.io/net-daemon/netdaemon_addon3",
+  "image": "ghcr.io/net-daemon/netdaemon_addon3_1",
   "arch": [
     "aarch64",
     "amd64",

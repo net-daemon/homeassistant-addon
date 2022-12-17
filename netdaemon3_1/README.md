@@ -1,11 +1,9 @@
-# NetDaemon V3.0 (.NET 6)
+# NetDaemon V3.1 (.NET 7)
 
 NetDaemon provides capability to write home automations in C# for Home Assistant.
-This is the version 3 of NetDaemon runtime using .NET 6.
+This is the version 3.1 of the NetDaemon runtime using .NET 7.
 
-If you still have not upgraded to V3 runtime please see the [docs about the differences between version 3 and version 2](https://netdaemon.xyz/docs/v3/app_model/app_model_moving_from_v2).
-
-**We have moved to .NET 7 in NetDaemon runtime version 3.1. The latest version of NetDaemon runtime running on .NET 6 is `22.44.0`. No further upgrades and changes will be maintained on .NET 6. Please upgrade. The Runtime is backwards compatible and should be effortless. To run the runtime 3.1 with .NET 7, please install that version of add-on.**
+**If you are still running the 3.0 version of NetDaemon runtime using .NET 6 Please select that version of the add-on. We are recommending users to upgrade asap.**
 
 ## Development environment
 
