@@ -1,21 +1,9 @@
-# NetDaemon V2
+# NetDaemon V2 (Deprecated)
 
-NetDaemon provides capability to write home automations in C# for Home Assistant. NetDaemon V2 is the current release of NetDaemon runtime. We do recommend moving to version 3. We will continue maintain and fixing bugs but no new features will be added to version 2. See the [docs](https://netdaemon.xyz) what's the difference is between the versions.
+This version is deprecated!
 
-## Development environment
+As of june 30 this add-on is not maintained. We strongly suggest moving to version 3.1 of the NetDaemon runtime.  [Please checkout de docs for how to migrate your V2 projects to V3](https://netdaemon.xyz)
 
-To setup a development environment for NetDaemon please see [https://github.com/net-daemon/netdaemon-app-template](https://github.com/net-daemon/netdaemon-app-template)
+From january the add-on itself will be deprecated and only available in using HA advanced mode. You can still install it and use it. After june 30 you are using it at own risk since it will not get any updates including security update.
 
-If you already done that check that you have the latest version of the nuget packages. The latest release of NetDaemon has same version as packages.
-
-See [https://github.com/net-daemon/netdaemon_v2/releases](https://github.com/net-daemon/netdaemon/releases)
-
-The NetDaemon V2 repo can be found at [https://github.com/net-daemon/netdaemon_v2](https://github.com/net-daemon/netdaemon)
-
-## Expect things to change
-
-The NetDaemon project is stable but is still in development so expect things to change!
-
-## Docs
-
-[Find the documentation here!](https://netdaemon.xyz)
+Thanks for understanding that the development team does not have the resources to maintain multiple versions.

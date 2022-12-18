@@ -1,6 +1,6 @@
 {
-  "name": "NetDaemon V2",
-  "version": "22.1.11",
+  "name": "NetDaemon V2 (Deprecated)",
+  "version": "22.1.12",
   "slug": "netdaemon",
   "description": "Write automations in C# for Home Assistant. Deprecated, please upgrade to V3!",
   "url": "http://netdaemon.xyz",
