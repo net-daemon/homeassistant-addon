@@ -1,8 +1,8 @@
 {
-  "name": "NetDaemon V3 - beta development",
+  "name": "NetDaemon V3.1 - (dev branch)",
   "version": "dev",
   "slug": "netdaemon3_dev",
-  "description": "NetDaemon V3-beta, development release",
+  "description": "NetDaemon V3.1, development release",
   "url": "http://netdaemon.xyz",
   "startup": "application",
   "image": "ghcr.io/net-daemon/netdaemon_addon3",
