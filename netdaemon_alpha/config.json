@@ -1,0 +1,50 @@
+{
+  "name": "NetDaemon V4-alpha (.NET 8)",
+  "version": "alpha",
+  "slug": "netdaemon4-alpha",
+  "description": "NetDaemon V4 alpha release (.NET 8), Write automations in C# for Home Assistant",
+  "url": "http://netdaemon.xyz",
+  "startup": "application",
+  "image": "ghcr.io/net-daemon/netdaemon_addon4",
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "armv7"
+  ],
+  "boot": "auto",
+  "map": [
+    "config:rw"
+  ],
+  "ingress": false,
+  "hassio_api": true,
+  "hassio_role": "default",
+  "homeassistant_api": true,
+  "host_network": false,
+  "options": {
+    "log_level": "information",
+    "app_config_folder": "/config/netdaemon4",
+    "app_assembly": ""
+  },
+  "services": [
+    "mqtt:need"
+  ],
+  "schema": {
+    "log_level": "match(^(trace|debug|information|warning|error|critical)$)",
+    "app_config_folder": "str",
+    "app_assembly": "str?"
+  },
+  "ports": {
+    "10000/tcp": null,
+    "10001/tcp": null,
+    "10002/tcp": null,
+    "10003/tcp": null,
+    "10004/tcp": null,
+    "20000/udp": null,
+    "20001/udp": null,
+    "20002/udp": null,
+    "20003/udp": null,
+    "20004/udp": null
+  }
+}
+
