@@ -1,6 +1,5 @@
-# NetDaemon V4 - alpha version
+# NetDaemon V4 - alpha pre-release version
 
-This is the alpha version of the upcoming version 4 of NetDaemon. The main change is full support for .NET 8. We will continue to support the V3.1 until .NET 7 runs out of support. Once we release this .NET 8 based version 4 of the runtime, no further development will be done on v3.
+This is the alpha pre-release version NetDaemon (V4 built on .NET 8). New unreleased features checked into the main branch will be accessable here. Prerelease software are unstable and for most users we recommend using the stable releases. 
 
 Stay tuned for instructions how to upgrade to this version within a few weeks.
-
