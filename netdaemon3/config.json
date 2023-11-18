@@ -6,6 +6,7 @@
   "url": "http://netdaemon.xyz",
   "startup": "application",
   "image": "ghcr.io/net-daemon/netdaemon_addon3",
+  "state": "deprecated",
   "arch": [
     "aarch64",
     "amd64",

@@ -1,0 +1,74 @@
+{
+  "name": "NetDaemon V4 (.NET 8)",
+  "version": "23.46.0",
+  "slug": "netdaemon4",
+  "description": "NetDaemon V4 alpha pre-release (.NET 8), Write automations in C# for Home Assistant",
+  "url": "https://netdaemon.xyz",
+  "startup": "application",
+  "image": "ghcr.io/net-daemon/netdaemon_addon4",
+  "init": false,
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "armv7"
+  ],
+  "boot": "auto",
+  "map": [
+    "config:rw"
+  ],
+  "ingress": false,
+  "hassio_api": true,
+  "hassio_role": "default",
+  "homeassistant_api": true,
+  "host_network": false,
+  "options": {
+    "log_level": "information",
+    "app_config_folder": "/config/netdaemon4",
+    "app_assembly": "",
+    "mqtt_host": null,
+    "mqtt_port": null,
+    "mqtt_username": null,
+    "mqtt_password": null,
+    "mqtt_client_id": null,
+    "mqtt_discoveryprefix": "homeassistant",
+    "mqtt_use_tls": false,
+    "mqtt_allow_untrusted_certificates": false,
+    "mqtt_ignore_certificate_chain_errors": false,
+    "mqtt_ignore_certificate_revocation_errors": false
+  },
+  "schema": {
+    "log_level": "match(^(trace|debug|information|warning|error|critical)$)",
+    "app_config_folder": "str",
+    "app_assembly": "str?",
+    "mqtt_host": "str?",
+    "mqtt_port": "int(0,65535)?",
+    "mqtt_username": "str?",
+    "mqtt_password": "str?",
+    "mqtt_client_id": "str?",
+    "mqtt_discoveryprefix": "str",
+    "mqtt_use_tls": "bool",
+    "mqtt_allow_untrusted_certificates": "bool",
+    "mqtt_ignore_cert_validation_errors": "bool",
+    "mqtt_ignore_certificate_chain_errors": "bool"
+  },
+  "discovery": [
+    "mqtt"
+  ],
+  "services": [
+    "mqtt:want"
+  ],
+  "ports": {
+    "10000/tcp": null,
+    "10001/tcp": null,
+    "10002/tcp": null,
+    "10003/tcp": null,
+    "10004/tcp": null,
+    "20000/udp": null,
+    "20001/udp": null,
+    "20002/udp": null,
+    "20003/udp": null,
+    "20004/udp": null
+  }
+}
+
