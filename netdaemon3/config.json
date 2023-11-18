@@ -1,8 +1,8 @@
 {
-  "name": "NetDaemon V3.0 (.NET 6)",
+  "name": "NetDaemon V3.0 (DEPRECATED)",
   "version": "22.44.0",
   "slug": "netdaemon3",
-  "description": "NetDaemon V3.0 (.NET 6), Write automations in C# for Home Assistant",
+  "description": "NetDaemon V3.0 (.NET 6), Deprecated",
   "url": "http://netdaemon.xyz",
   "startup": "application",
   "image": "ghcr.io/net-daemon/netdaemon_addon3",
