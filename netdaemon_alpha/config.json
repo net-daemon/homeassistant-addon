@@ -25,32 +25,12 @@
   "options": {
     "log_level": "information",
     "app_config_folder": "/config/netdaemon4",
-    "app_assembly": "",
-    "mqtt_host": null,
-    "mqtt_port": null,
-    "mqtt_username": null,
-    "mqtt_password": null,
-    "mqtt_client_id": null,
-    "mqtt_discoveryprefix": "homeassistant",
-    "mqtt_use_tls": false,
-    "mqtt_allow_untrusted_certificates": false,
-    "mqtt_ignore_certificate_chain_errors": false,
-    "mqtt_ignore_certificate_revocation_errors": false
+    "app_assembly": ""
   },
   "schema": {
     "log_level": "match(^(trace|debug|information|warning|error|critical)$)",
     "app_config_folder": "str",
-    "app_assembly": "str?",
-    "mqtt_host": "str?",
-    "mqtt_port": "int(0,65535)?",
-    "mqtt_username": "str?",
-    "mqtt_password": "str?",
-    "mqtt_client_id": "str?",
-    "mqtt_discoveryprefix": "str",
-    "mqtt_use_tls": "bool",
-    "mqtt_allow_untrusted_certificates": "bool",
-    "mqtt_ignore_cert_validation_errors": "bool",
-    "mqtt_ignore_certificate_chain_errors": "bool"
+    "app_assembly": "str?"
   },
   "discovery": [
     "mqtt"
