@@ -28,6 +28,10 @@
             "name": "MQTT Password",
             "description": "Optional password for the MQTT broker. If you use the mosquitto addon, this will be discovered automatically."
         },
+        "mqtt_discovery_prefix": {
+            "name": "MQTT Discovery Prefix",
+            "description": "Prefix for Home Assistant's MQTT integration. (default=homeassistant)"
+        },
         "mqtt_use_tls": {
             "name": "MQTT Use TLS",
             "description": "Whether or not to use TLS for the MQTT connection. (default=false)"

@@ -39,6 +39,7 @@
     "mqtt_port": "int(0,65535)",
     "mqtt_username": "str?",
     "mqtt_password": "str?",
+    "mqtt_discovery_prefix": "str?",
     "mqtt_use_tls": "bool?",
     "mqtt_allow_untrusted_certificates": "bool?"
   },
