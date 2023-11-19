@@ -1,6 +1,6 @@
 {
   "name": "NetDaemon V4 (.NET 8)",
-  "version": "23.46.0",
+  "version": "23.46.1",
   "slug": "netdaemon4",
   "description": "NetDaemon V4 (.NET 8), Write automations in C# for Home Assistant",
   "url": "https://netdaemon.xyz",
