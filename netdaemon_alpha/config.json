@@ -25,12 +25,23 @@
   "options": {
     "log_level": "information",
     "app_config_folder": "/config/netdaemon4",
-    "app_assembly": ""
+    "app_assembly": "",
+    "mqtt_host": "",
+    "mqtt_port": 1883,
+    "mqtt_username": "",
+    "mqtt_password": ""
   },
   "schema": {
     "log_level": "match(^(trace|debug|information|warning|error|critical)$)",
     "app_config_folder": "str",
-    "app_assembly": "str?"
+    "app_assembly": "str?",
+    "mqtt_host": "str?",
+    "mqtt_port": "int(0,65535)",
+    "mqtt_username": "str?",
+    "mqtt_password": "str?",
+    "mqtt_discovery_prefix": "str?",
+    "mqtt_use_tls": "bool?",
+    "mqtt_allow_untrusted_certificates": "bool?"
   },
   "discovery": [
     "mqtt"
