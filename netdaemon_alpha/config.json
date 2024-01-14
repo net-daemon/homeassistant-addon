@@ -32,7 +32,7 @@
     "app_config_folder": "str",
     "app_assembly": "str?",
     "mqtt_host": "str?",
-    "mqtt_port": "int?(0,65535)",
+    "mqtt_port": "int(0,65535)?",
     "mqtt_username": "str?",
     "mqtt_password": "str?",
     "mqtt_discovery_prefix": "str?",
