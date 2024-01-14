@@ -25,11 +25,7 @@
   "options": {
     "log_level": "information",
     "app_config_folder": "/config/netdaemon4",
-    "app_assembly": "",
-    "mqtt_host": "",
-    "mqtt_port": 1883,
-    "mqtt_username": "",
-    "mqtt_password": ""
+    "app_assembly": ""
   },
   "schema": {
     "log_level": "match(^(trace|debug|information|warning|error|critical)$)",
