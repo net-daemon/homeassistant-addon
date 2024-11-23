@@ -1,11 +1,11 @@
 {
-  "name": "NetDaemon V4-alpha (.NET 8)",
+  "name": "NetDaemon V5-alpha (.NET 9)",
   "version": "alpha",
   "slug": "netdaemon4-alpha",
-  "description": "NetDaemon V4 alpha pre-release (.NET 8), Write automations in C# for Home Assistant",
+  "description": "NetDaemon V5 alpha pre-release (.NET 9), Write automations in C# for Home Assistant",
   "url": "https://netdaemon.xyz",
   "startup": "application",
-  "image": "ghcr.io/net-daemon/netdaemon_addon4",
+  "image": "ghcr.io/net-daemon/netdaemon_addon5",
   "init": false,
   "arch": [
     "aarch64",
@@ -24,7 +24,7 @@
   "host_network": false,
   "options": {
     "log_level": "information",
-    "app_config_folder": "/config/netdaemon4",
+    "app_config_folder": "/config/netdaemon5",
     "app_assembly": ""
   },
   "schema": {
