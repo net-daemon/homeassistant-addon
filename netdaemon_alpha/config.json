@@ -1,7 +1,7 @@
 {
   "name": "NetDaemon V5-alpha (.NET 9)",
   "version": "alpha",
-  "slug": "netdaemon4-alpha",
+  "slug": "netdaemon5-alpha",
   "description": "NetDaemon V5 alpha pre-release (.NET 9), Write automations in C# for Home Assistant",
   "url": "https://netdaemon.xyz",
   "startup": "application",
