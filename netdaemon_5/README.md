@@ -7,7 +7,7 @@ This is the version 5 of the NetDaemon runtime using .NET 9.
 
 ## Development environment
 
-To setup a development environment for NetDaemon please see [https://netdaemon.xyz/docs/v3/started/development](https://netdaemon.xyz/docs/v3/started/development)
+To setup a development environment for NetDaemon please see [https://netdaemon.xyz/docs/user/started/development](https://netdaemon.xyz/docs/user/started/development)
 
 If you already done that check that you have the latest version of the nuget packages. The latest release of NetDaemon has same version as packages.
 
