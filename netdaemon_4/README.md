@@ -3,11 +3,11 @@
 NetDaemon provides capability to write home automations in C# for Home Assistant.
 This is the version 4 of the NetDaemon runtime using .NET 8.
 
-**If you are still running the 3.x version of NetDaemon, Please select correct version of the add-on. We are recommending users to upgrade to V4 asap.**
+** We are recommending users to upgrade to V5 asap since no new features of fixes will be done in this version**
 
 ## Development environment
 
-To setup a development environment for NetDaemon please see [https://netdaemon.xyz/docs/v3/started/development](https://netdaemon.xyz/docs/v3/started/development)
+To setup a development environment for NetDaemon please see [https://netdaemon.xyz/docs/user/started/development](https://netdaemon.xyz/docs/user/started/development)
 
 If you already done that check that you have the latest version of the nuget packages. The latest release of NetDaemon has same version as packages.
 
