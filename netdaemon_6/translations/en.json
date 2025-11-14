@@ -1,0 +1,44 @@
+{
+    "configuration": {
+        "log_level": {
+            "name": "Log Level",
+            "description": "Minimum log level (trace, debug, information, warning, error, or critical; default=information)"
+        },
+        "app_config_folder": {
+            "name": "App configuration folder",
+            "description": "Path for application configuration (default=/config/netdaemon6)"
+        },
+        "app_assembly": {
+            "name": "Application assembly",
+            "description": "Optional executable assembly to run"
+        },
+        "mqtt_host": {
+            "name": "MQTT Host",
+            "description": "Optional host of the MQTT broker. If you use the mosquitto addon, this will be discovered automatically. An MQTT broker is required for apps that use the Entity Management API."
+        },
+        "mqtt_port": {
+            "name": "MQTT Port",
+            "description": "Optional port of the MQTT broker. If you use the mosquitto addon, this will be discovered automatically. (default=1883)"
+        },
+        "mqtt_username": {
+            "name": "MQTT Username",
+            "description": "Optional username for the MQTT broker. If you use the mosquitto addon, this will be discovered automatically."
+        },
+        "mqtt_password": {
+            "name": "MQTT Password",
+            "description": "Optional password for the MQTT broker. If you use the mosquitto addon, this will be discovered automatically."
+        },
+        "mqtt_discovery_prefix": {
+            "name": "MQTT Discovery Prefix",
+            "description": "Prefix for Home Assistant's MQTT integration. (default=homeassistant)"
+        },
+        "mqtt_use_tls": {
+            "name": "MQTT Use TLS",
+            "description": "Whether or not to use TLS for the MQTT connection. (default=false)"
+        },
+        "mqtt_allow_untrusted_certificates": {
+            "name": "MQTT Allow untrusted certificates",
+            "description": "If Use TLS is true, this will bypass certificate validation and allow untrusted certificates. (default=false)"
+        }
+    }
+}
