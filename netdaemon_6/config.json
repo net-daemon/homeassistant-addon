@@ -1,6 +1,6 @@
 {
   "name": "NetDaemon V6 (.NET 10)",
-  "version": "25.45.1",
+  "version": "25.46.0",
   "slug": "netdaemon6",
   "description": "NetDaemon V6 (.NET 10), Write automations in C# for Home Assistant",
   "url": "https://netdaemon.xyz",
