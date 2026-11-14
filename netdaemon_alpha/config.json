@@ -1,17 +1,15 @@
 {
-  "name": "NetDaemon V5-alpha (.NET 9)",
+  "name": "NetDaemon V7-alpha (.NET 11)",
   "version": "alpha",
-  "slug": "netdaemon5-alpha",
-  "description": "NetDaemon V5 alpha pre-release (.NET 9), Write automations in C# for Home Assistant",
+  "slug": "netdaemon7-alpha",
+  "description": "NetDaemon V7 alpha pre-release (.NET 11), Write automations in C# for Home Assistant",
   "url": "https://netdaemon.xyz",
   "startup": "application",
-  "image": "ghcr.io/net-daemon/netdaemon_addon5",
+  "image": "ghcr.io/net-daemon/netdaemon_addon7",
   "init": false,
   "arch": [
     "aarch64",
-    "amd64",
-    "armhf",
-    "armv7"
+    "amd64"
   ],
   "boot": "auto",
   "map": [
@@ -24,7 +22,7 @@
   "host_network": false,
   "options": {
     "log_level": "information",
-    "app_config_folder": "/config/netdaemon5",
+    "app_config_folder": "/config/netdaemon7",
     "app_assembly": ""
   },
   "schema": {
@@ -58,4 +56,3 @@
     "20004/udp": null
   }
 }
-

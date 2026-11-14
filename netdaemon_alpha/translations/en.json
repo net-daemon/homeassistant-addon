@@ -6,7 +6,7 @@
         },
         "app_config_folder": {
             "name": "App configuration folder",
-            "description": "Path for application configuration (default=/config/netdaemon4)"
+            "description": "Path for application configuration (default=/config/netdaemon7)"
         },
         "app_assembly": {
             "name": "Application assembly",

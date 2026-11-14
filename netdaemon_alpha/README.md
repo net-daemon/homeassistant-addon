@@ -1,5 +1,10 @@
-# NetDaemon V5 - alpha pre-release version
+# NetDaemon V7 - alpha (.NET 11)
 
-This is the alpha pre-release version NetDaemon (V5 built on .NET 9). New unreleased features checked into the main branch will be accessable here. Prerelease software are unstable and for most users we recommend using the stable releases. 
+This is the manually published alpha version of NetDaemon V7, built on .NET 11.
+It uses `ghcr.io/net-daemon/netdaemon_addon7:alpha` and supports aarch64 and amd64.
 
-Stay tuned for instructions how to upgrade to this version within a few weeks.
+The V7 alpha is a separate add-on with the slug `netdaemon7-alpha`. Its default application folder is `/config/netdaemon7`. Existing V6 and older add-ons remain separate.
+
+Update your application packages to the matching V7 alpha versions. For compiled applications, target `net11.0`, rebuild with the .NET 11 SDK, and deploy the complete build output. Source deployments continue to use `.cs` files; `.csproj` deployment is not supported.
+
+Alpha releases can change between builds. Use the stable add-on for production automations.
